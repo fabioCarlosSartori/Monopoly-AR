@@ -56,13 +56,14 @@
 
   <!-- Componente Model Viewer -->
   <model-viewer 
-  src="fachada.glb" 
-  ar 
-  ar-modes="scene-viewer quick-look webxr" 
-  camera-controls 
-  scale="auto"
-  ar-scale="auto"
-  shadow-intensity="1">
+    src="fachada.glb" 
+    ar 
+    ar-modes="webxr scene-viewer quick-look" 
+    camera-controls 
+    tone-mapping="neutral" 
+    shadow-intensity="1"
+    environment-image="neutral"
+    alt="Modelo 3D da Fachada">
     
     <button slot="ar-button" class="ar-button">
       Posicionar no Local (AR)
